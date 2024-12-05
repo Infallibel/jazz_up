@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: kColorPrimary),
+        colorScheme: ColorScheme.fromSeed(seedColor: kColorPurple),
         useMaterial3: true,
       ),
       home: const HomePage(),
